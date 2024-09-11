@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar */
+.navbar-brand img {
+  width: 250px;
+  height: auto;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.push-right {
+  justify-content: flex-end;
+}
+
+.navbar a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.navbar-nav{
+  margin-right: 20px;
+}
+
+/* Header Section */
+/* Flexbox layout for section 1 */
+.colored-section {
+  background-color: #6739B6;
+  color: #fff;
+}
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 10%; /* Adjusted padding for spacing */
+}
+
+.text-container {
+  flex: 1; /* Takes up the available space */
+  text-align: left;
+}
+
+.image-container {
+  flex: 1; /* Adjusts the space taken by the image */
+  display: flex;
+  justify-content: flex-end; /* Aligns the image to the right */
+}
+
+.image-iphone {
+  width: 60%; /* Adjust width according to your design */
+  transform: rotate(20deg);
+}
+
+/* Heading and Button Styling */
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.download-button {
+  margin: 5% 2% 5% 0;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.image-iphone {
+  width: 20%;
+  transform: rotate(20deg);
+  position: absolute;
+  top: 25%;
+  right: 10%;
+}
+
+/* Features Section */
+#features {
+  padding: 4% 15%;
+  position: relative;
+  text-align: center;
+}
+
+.feature-box {
+  padding: 0;
+}
+
+.feature-box img {
+  width: 64px;
+  height: auto;
+}
+
+.spacer {
+  margin: 0 10px;
+  box-shadow: 0px 49px 40px rgba(50, 50, 71, 0.05);
+  padding: 10%;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 35px;
+}
+
+/* Testimonial Section */
+#press {
+  padding: 5% 1%;
+}
+
+.press-img {
+  width: 8%;
+  margin: 0 20px;
+
+}
+.press p{
+  text-align: center;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  
+}
+.roundedimg{
+  border-radius: 50%;
+  height: 100px;
+  display: block;
+  margin: 30px auto;
+}
